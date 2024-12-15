@@ -1,8 +1,9 @@
-# Define the number of hours
-hours = 2  # Number of hours to convert
+# Prompt the user to input their current age
+current_age = int(input("How old are you? "))
 
-# Calculate the number of seconds
-seconds = hours * 3600  # 1 hour = 3600 seconds
+# Calculate the age in the year 2050
+years_to_add = 2050 - 2023  # Difference between 2050 and the current year
+future_age = current_age + years_to_add
 
 # Print the result
-print(f"{hours} hour(s) is {seconds} seconds.")
+print(f"In 2050, you will be {future_age} years old.")

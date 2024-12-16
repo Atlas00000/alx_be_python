@@ -24,5 +24,5 @@ elif time_bound == "no":
 else:
     reminder += " Time sensitivity was not clearly specified."
 
-# Print the reminder
-print("\nReminder:", reminder)
+# Print the reminder in the required format
+print(f"Reminder: {reminder}")

@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.product-card {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 600px;
+}
+
+.product-image {
+    flex: 1;
+    background-image: url('https://via.placeholder.com/300'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.product-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.product-category {
+    font-size: 12px;
+    color: #999;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #666;
+    margin: 12px 0;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.product-price span {
+    text-decoration: line-through;
+    font-size: 16px;
+    color: #999;
+    margin-left: 8px;
+}
+
+.add-to-cart {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #27ae60;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.add-to-cart:hover {
+    background-color: #219150;
+}

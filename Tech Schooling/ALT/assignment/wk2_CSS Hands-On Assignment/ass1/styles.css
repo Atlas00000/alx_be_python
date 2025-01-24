@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #202020; /* Dark background */
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+  }
+  
+  .card {
+    position: relative;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+  
+  .card-heading {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    background-color: #ff00a5; /* Bright pink */
+    color: #ffffff;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
